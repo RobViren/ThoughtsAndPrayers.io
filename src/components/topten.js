@@ -29,6 +29,7 @@ export default class TopTen extends Component {
 					<div class="box">
             <h1 class="title">Results</h1>
 						<h1 class="subtitle">The impact made this week</h1>
+						<a href="https://imgur.com/a/aDyVO">Link to latest donation</a>
 						<nav class="level is-mobile">
 						  <div class="level-item has-text-centered">
 						    <div>
