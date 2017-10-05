@@ -92,7 +92,7 @@ export default class Header extends Component {
 		            </a>
 		          </p>
 							<p class="control">
-		            <a class="button is-inverted" href="https://www.facebook.com/thoughtsandprayers.io/">
+		            <a class="button is-inverted" href="https://github.com/RobViren/ThoughtsAndPrayers.io">
 		              <span class="icon">
 		                <i class="fa fa-github"></i>
 		              </span>

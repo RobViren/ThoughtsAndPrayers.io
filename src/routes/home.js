@@ -13,7 +13,7 @@ export default class Home extends Component {
 
 	componentWillMount () {
 
-		fetch('http://localhost:8080/api/v1/update').then(res => {
+		fetch('https://thoughtsandprayers-io.appspot.com/api/v1/update').then(res => {
 			res.json().then(res => {
 				this.setState({
 					results: res
@@ -22,7 +22,7 @@ export default class Home extends Component {
 		})
 
 		setInterval(function() {
-			fetch('http://localhost:8080/api/v1/update').then(res => {
+			fetch('https://thoughtsandprayers-io.appspot.com/api/v1/update').then(res => {
 				res.json().then(res => {
 					this.setState({
 						results: res
