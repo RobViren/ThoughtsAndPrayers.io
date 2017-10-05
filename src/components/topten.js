@@ -29,12 +29,12 @@ export default class TopTen extends Component {
 					<div class="box">
             <h1 class="title">Results</h1>
 						<h1 class="subtitle">The impact made this week</h1>
-						<a href="https://imgur.com/a/aDyVO">Link to latest donation</a>
+						<a href="https://imgur.com/a/aDyVO">Link to latest donation post</a>
 						<nav class="level is-mobile">
 						  <div class="level-item has-text-centered">
 						    <div>
 						      <p class="heading">People On Now</p>
-						      <p class="title">{this.props.results && Math.floor(this.props.results.hashesPerSecond / 10)}</p>
+						      <p class="title">{this.props.results && Math.floor(this.props.results.hashesPerSecond / 4)}</p>
 						    </div>
 						  </div>
 						  <div class="level-item has-text-centered">
