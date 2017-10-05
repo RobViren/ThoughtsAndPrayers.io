@@ -1,0 +1,35 @@
+{
+  "name": "powerhope",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint src && preact test",
+    "start": "if-env NODE_ENV=production && npm run -s serve || npm run -s dev",
+    "build": "preact build --no-prerender",
+    "serve": "preact build --no-prerender && preact serve",
+    "dev": "preact watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "eslintConfig": {
+    "extends": "eslint-config-synacor"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-synacor": "^1.1.1",
+    "if-env": "^1.0.0",
+    "node-sass": "^4.5.3",
+    "preact-cli": "^1.4.1",
+    "sass-loader": "^6.0.6"
+  },
+  "dependencies": {
+    "animejs": "^2.1.0",
+    "bulma": "^0.5.3",
+    "font-awesome": "^4.7.0",
+    "preact": "^8.2.5",
+    "preact-compat": "^3.17.0",
+    "preact-router": "^2.5.7"
+  }
+}
