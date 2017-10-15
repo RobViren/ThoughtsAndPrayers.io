@@ -71,9 +71,9 @@ export default class HelpForFree extends Component {
           <div align="center">
             {!this.state.praying && <button class="button is-info is-large is-inverted" onClick={this.startMine}>Click to Help</button>}
             {!this.state.praying && <p class="subtitle" style="padding: 10px 0px 0px 0px">or</p>}
-            <a href="https://donate.makemydonation.org/donate/205612529" class="button is-info is-large is-inverted">Donate Directly</a>
+            <a href="https://donate.makemydonation.org/donate/562618866" class="button is-info is-large is-inverted">Donate Directly</a>
             <p class="subtitle" style="padding: 10px 0px 0px 0px">to the chairity of the week</p>
-            <p class="title" style="padding: 10px 0px 0px 0px">EASTERN NEVADA COMMUNITES COALITION</p>
+            <p class="title" style="padding: 10px 0px 0px 0px">Bill and Melinda Gates Foundation</p>
           </div>
 				</div>
 			</section>

@@ -6,16 +6,6 @@ export default class TopTen extends Component {
 	}
 
 	componentWillMount(){
-		var disqus_config = function () {
-		this.page.url = "/";  // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = "HOME"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-		};
-		(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = 'https://www-thoughtsandprayers-io.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-		})();
 	}
 
 	componentDidUpdate(){
@@ -59,7 +49,6 @@ export default class TopTen extends Component {
 						</nav>
 						<a href="https://imgur.com/a/aDyVO">Link to latest donation post</a>
 					</div>
-					<div id="disqus_thread"></div>
 				</div>
 			</div>
 		);
